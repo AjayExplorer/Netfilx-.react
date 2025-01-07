@@ -1,8 +1,13 @@
 import React from "react";
+import "./App.css"
+import NavBar from "./component/NavBar.js/NavBar";
+import Banner from "./component/Banner/Banner";
 function App() {
   return (
-    
-         <h1>hello world</h1>
+    <div>
+      <NavBar/>
+      <Banner/>
+    </div>
   );
 }
 
